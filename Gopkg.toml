@@ -1,0 +1,23 @@
+[[constraint]]
+name = "github.com/Knetic/govaluate"
+version = "^3.0.0"
+
+[[constraint]]
+name = "github.com/gorilla/websocket"
+version = "^1.2.0"
+
+[[constraint]]
+name = "github.com/julienschmidt/httprouter"
+branch = "master"
+
+[[constraint]]
+name = "github.com/unrolled/render"
+branch = "master"
+
+[[constraint]]
+name = "github.com/thoas/go-funk"
+version = "^0.3"
+
+[[constraint]]
+name = "github.com/sbinet/go-python"
+branch = "master"
