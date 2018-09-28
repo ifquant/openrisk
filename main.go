@@ -86,8 +86,7 @@ type Client struct {
 }
 
 func serveClient(w http.ResponseWriter, r *http.Request) {
-	atomic.AddInt64(&clientCounter, 1)
-	n := atomic.LoadInt64(&clientCounter)
+	n := atomic.AddInt64(&clientCounter, 1)
 	self := &Client{}
 	clients.Store(n, self)
 
